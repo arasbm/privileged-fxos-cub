@@ -1,0 +1,27 @@
+{
+    "version": "1.0",
+    "name": "P. FxOS Cub",
+    "launch_path": "/index.html",
+    "description": "Stub for building Privileged FirefoxOS apps",
+    "fullscreen": "false",
+    "orientation": ["portrait", "landscape"],
+    "type": "privileged",
+    "icons": {
+        "60": "/img/icon/icon60.png",
+        "128": "/img/icon/icon128.png"
+    },
+    "developer": {
+        "name": "Aras Balali Moghaddam",
+        "url": "http://arasbm.com"
+    },
+    "permissions": {
+      "systemXHR": {
+        "description" : "Need to access content on other websites that do not have proper api (with their permission)"
+      },
+      "audio-channel-content": {
+	"description" : "Continue to play music when app goes into background"
+      }
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en"
+}
